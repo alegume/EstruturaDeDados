@@ -77,7 +77,7 @@ void remover(struct elemento **fila, int i) {
 			return;
 		}
 
-		anterior = atual; // Elemento atual passa a ser o anterio
+		anterior = atual; // Elemento atual passa a ser o anterior
 		atual = (atual)->proximo; // Proximo elemento passa a ser o atual
 	}
 }
